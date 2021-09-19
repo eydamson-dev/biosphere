@@ -1,11 +1,11 @@
-<div class="min-h-screen flex items-center justify-center bg-blue-400 px-9">
+<div class="flex flex-col justify-center items-center bg-forest bg-no-repeat bg-cover bg-center min-h-screen">
 
   <!-- login form -->
-  <div class="bg-white p-16 rounded shadow-2xl">
+  <div class="bg-green-900 text-green-900 p-16 rounded-xl shadow-lg bg-opacity-50 backdrop-filter backdrop-blur-sm mx-5">
 
-    <h2 class="text-3xl font-bold mb-10 text-gray-800">Create Your Account</h2>
+    <h2 class="font-rossetti text-green-200 text-2xl font-bold mb-10 md:text-3xl text-center">Create Your Account</h2>
 
-    <form class="space-y-5" wire:submit.prevent="register">
+    <form class="space-y-5 md:w-80" wire:submit.prevent="register">
       @csrf
 
       @if($currentStep == 1)
