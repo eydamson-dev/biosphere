@@ -12,7 +12,7 @@ module.exports = {
       },
       backgroundImage: {
         yam: "url('/img/yam.png')",
-        forest: "url('/img/11025562.jpg')",
+        forest: "url('/img/bg-2.png')",
       },
     },
   },

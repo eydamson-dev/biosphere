@@ -577,6 +577,23 @@ video {
   border-color: rgba(229, 231, 235, var(--tw-border-opacity));
 }
 
+@font-face {
+  font-family: Rossetti;
+
+  src: url("//db.onlinewebfonts.com/t/96996b95c19ecf8733387b6c0b2311e3.eot");
+
+  src: url("//db.onlinewebfonts.com/t/96996b95c19ecf8733387b6c0b2311e3.eot?#iefix")
+        format("embedded-opentype"),
+      url("//db.onlinewebfonts.com/t/96996b95c19ecf8733387b6c0b2311e3.woff2")
+        format("woff2"),
+      url("//db.onlinewebfonts.com/t/96996b95c19ecf8733387b6c0b2311e3.woff")
+        format("woff"),
+      url("//db.onlinewebfonts.com/t/96996b95c19ecf8733387b6c0b2311e3.ttf")
+        format("truetype"),
+      url("//db.onlinewebfonts.com/t/96996b95c19ecf8733387b6c0b2311e3.svg#Rossetti")
+        format("svg");
+}
+
 .container {
   width: 100%;
 }
@@ -19090,7 +19107,7 @@ video {
 }
 
 .bg-forest {
-  background-image: url('/img/11025562.jpg');
+  background-image: url('/img/bg-2.png');
 }
 
 .from-transparent {
@@ -51660,7 +51677,7 @@ video {
   }
 
   .sm\:bg-forest {
-    background-image: url('/img/11025562.jpg');
+    background-image: url('/img/bg-2.png');
   }
 
   .sm\:from-transparent {
@@ -84218,7 +84235,7 @@ video {
   }
 
   .md\:bg-forest {
-    background-image: url('/img/11025562.jpg');
+    background-image: url('/img/bg-2.png');
   }
 
   .md\:from-transparent {
@@ -116776,7 +116793,7 @@ video {
   }
 
   .lg\:bg-forest {
-    background-image: url('/img/11025562.jpg');
+    background-image: url('/img/bg-2.png');
   }
 
   .lg\:from-transparent {
@@ -149334,7 +149351,7 @@ video {
   }
 
   .xl\:bg-forest {
-    background-image: url('/img/11025562.jpg');
+    background-image: url('/img/bg-2.png');
   }
 
   .xl\:from-transparent {
@@ -181892,7 +181909,7 @@ video {
   }
 
   .\32xl\:bg-forest {
-    background-image: url('/img/11025562.jpg');
+    background-image: url('/img/bg-2.png');
   }
 
   .\32xl\:from-transparent {

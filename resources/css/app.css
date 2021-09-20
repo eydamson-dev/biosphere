@@ -2,3 +2,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Rossetti;
+    src: url("//db.onlinewebfonts.com/t/96996b95c19ecf8733387b6c0b2311e3.eot");
+    src: url("//db.onlinewebfonts.com/t/96996b95c19ecf8733387b6c0b2311e3.eot?#iefix")
+        format("embedded-opentype"),
+      url("//db.onlinewebfonts.com/t/96996b95c19ecf8733387b6c0b2311e3.woff2")
+        format("woff2"),
+      url("//db.onlinewebfonts.com/t/96996b95c19ecf8733387b6c0b2311e3.woff")
+        format("woff"),
+      url("//db.onlinewebfonts.com/t/96996b95c19ecf8733387b6c0b2311e3.ttf")
+        format("truetype"),
+      url("//db.onlinewebfonts.com/t/96996b95c19ecf8733387b6c0b2311e3.svg#Rossetti")
+        format("svg");
+  }
+}
